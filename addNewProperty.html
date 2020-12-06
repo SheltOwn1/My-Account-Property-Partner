@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title> Add new property </title>
+    <script src="https://use.fontawesome.com/d2dd69e8cc.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
+     <link href="fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet">
+     <link href="fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+      <!--<link href="ownermyaccount.css" rel="stylesheet"> -->
+      <style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ITC Officina Sans Std Book";
+}
+body {
+  background: #f1f3f6;
+}
+        .navbar-brand{
+  font-size: 20px;
+  margin-top: 5px!important;
+  margin-bottom: -10px!important
+}
+.navbar-brand p{
+  font-size: 14px;
+  margin-top: -10px;
+}
+.nav-item a,.navbar-brand{
+  color: #2ECAB6!important;
+}
+ .nav-link{
+  font-weight: bold!important
+}
+.blink{
+  width:50px;
+  height: 20px;
+  background: red;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-top: -12px!important;
+  margin-left:50px;
+}
+.bl{
+  margin-left:80px;
+}
+@media (max-width: 992px) {
+  .blink{
+    margin-top: 15px!important;
+  }
+}
+@media (max-width: 576px) {
+.ft{
+  font-size: 16px;
+}
+.c img{
+  height: 250px!important;
+}
+.fa-user-circle,.fa-check{
+  color: #2ecab6!important;
+}
+.dropdown button{
+  background-color: #fff!important;
+  color: #2ecab6!important;
+}
+
+        }
+    </style>   
+</head>
+<body> 
+<div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top "style="background-color: #fff;">
+ <a class="navbar-brand pl-4 py-0 " href="#"><b>SHELTOWN.in</b><p>Live Like You Own It</p></a>
+ <div  class="navbar-brand  py-0"style="font-size: 16px;">
+    </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item mr-4">
+        <div class="blink "id="blink">Hurry</div>
+        <a class="nav-link " href="#" style="padding-top: 0px;">Refer & Earn </a>
+      </li>
+      <li class="nav-item mr-4">
+        <div class="blink bl" id="blinks">Free</div>
+        <a class="nav-link " href="#"style="padding-top: 0px;" >List Your Property</a>
+      </li>
+      <li class="nav-item mr-4">
+        <a class="nav-link" href="#SignupModal" data-toggle="modal">Sign up </a>
+      </li>
+      <li class="nav-item mr-4">
+        <a class="nav-link" href="#LoginModal" data-toggle="modal">Sign in </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+</div><!--header end---------->
+<!----------------------mmobile view---------------------------------------------------->
+
+<section style="margin-top: 80px;">
+  <div class="container mt-4 c" style="background: white;">
+    <div class="row" style="padding-top: 0!important; ">
+      <div class="col-lg-4 col-md-4 col-12 p-0">
+        <div class="p-lg-0 p-md-0 p-sm-0 p-4"><img src="images/becomehotelimage.jpg"style="height:410px;width: 100%;"></div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-12 p-0">
+        <div class="py-3 px-5">
+          <legend class="signup-legend text-center">List Your Property Here For Free
+         </legend><hr>
+             <div>
+               <select class="browser-default custom-select">
+                  <option selected>Delhi</option>
+                  <option value="1">pune</option>
+                  <option value="2">Bhopal</option>
+                  <option value="3">Indore</option>
+                  <option value="1">Kota</option>
+                  <option value="2">Jaipur</option>
+                  <option value="3">GurGaon</option>
+                  <option value="1">Ghaziabad</option>
+                  <option value="2">Bangalore</option>
+                  <option value="3">Noida</option>
+                  
+              </select>
+             </div>
+             <div>
+               
+                <h5 class="text-center mt-3">Property Type</h5><hr style="width: 20%;margin: auto;">
+             </div>
+             <div>
+                <div class="my-4" style="text-align: center;font-size: 18px;">
+                  <label for="vehicle1">Residential Rent</label>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
+                  &nbsp;&nbsp;
+                  <label for="vehicle1">Commercial Rent</label>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+                </div>
+                <div style="color:green;">
+                  <p class="mt-0 mb-0 text-center" style=""for="vehicle1">
+                    <b>Become SheltOwn's Premium Properties Partner Today.</b>
+                    
+                  </p>
+                  <p class="mt-0 mb-4 text-center" style="" for="vehicle1">
+                   <b> Request to be listed as <span><a href="">Sheltie's Shelter</a> </span></b> &nbsp;
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
+                  </p>
+                </div>
+              </div>
+             <div class="d-flex justify-content-center">
+               <a href="listingproperty.html" class="btn btn-info px-5">Continue</a>
+             </div>
+           </div>
+      </div><!---col end------->
+    </div>
+  </div><!-----container end-------->
+  <div class="container mt-2 " style="background: #444;">
+     <div class="text-center ft"style="padding: 10px;font-size: 18px;color: white;">
+         <span><i class="fa fa-phone-alt mx-2"></i></span>Give a missed call or <span><i class="fab fa-whatsapp mx-2"></i></span> WhatsApp to +91-7428-770-297 to get help with your property listing
+     </div>
+  </div>
+
+
+</section>
+ <!---------------------------------mobile view end-------------------------- -->
+     <script>
+       setInterval(function(){
+  document.querySelector("#blink").style="visibility:hidden";
+  },1000);
+  setInterval(function(){
+  document.querySelector("#blink").style="visibility:visible";
+  },1100);
+  setInterval(function(){
+  document.querySelector("#blinks").style="visibility:hidden";
+  },1000);
+  setInterval(function(){
+  document.querySelector("#blinks").style="visibility:visible";
+  },1100);
+     </script>
+   <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
